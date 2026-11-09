@@ -255,7 +255,7 @@ class Teste_02_CriacaoPergunta(BaseTestCase):
             EC.element_to_be_clickable((By.LINK_TEXT, "Teste 05: Como criar jogos no Unity?"))
         )
 
-        time.sleep(4)  # Apenas para visualizar o teste, pode ser removido
+        # time.sleep(4)  # Apenas para visualizar o teste, pode ser removido
 
         link.click()
 
